@@ -1,3 +1,15 @@
 {
-  "settingsInheritedFrom": "mendts-workshop/whitesource-config@main"
+  "settingsInheritedFrom": "mendts-workshop/whitesource-config@main",
+  "remediateSettings": {
+    "workflowRules": {
+      "enabled": false
+    },
+    "enableRenovate": true,
+    "dependencyDashboard": true,
+    "extends": [
+       "config:base",
+       "github>whitesource/merge-confidence:beta",
+       "github>mend-toolkit/mend-examples//Repo-Integration/Renovate/smart-merge"
+      ]
+  }
 }
