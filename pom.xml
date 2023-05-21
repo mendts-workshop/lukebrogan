@@ -15,6 +15,8 @@
 		<jvm.args.perm.size>-XX:MaxPermSize=128m</jvm.args.perm.size>
 		<jvm.args.gc.log.path>-Xloggc:logs/gc.log</jvm.args.gc.log.path>
 		<jvm.args.print.heap.at.gc>-XX:+PrintHeapAtGC</jvm.args.print.heap.at.gc>
+		<jquery.version>3.5.1</jquery.version>
+		<checkstyle.version>3.1.2</checkstyle.version>
 		<jvm.args.print.gc.details>-XX:+PrintGCDetails</jvm.args.print.gc.details>
 		<jvm.args.print.gc.date.stamps>-XX:+PrintGCDateStamps</jvm.args.print.gc.date.stamps>
 		<jvm.args.gc.log.file.rotation>-XX:+UseGCLogFileRotation</jvm.args.gc.log.file.rotation>
